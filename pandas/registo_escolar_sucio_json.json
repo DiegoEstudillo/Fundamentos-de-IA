@@ -1,0 +1,17 @@
+[
+    {"boleta": "A001", "nombre_alumno": "Juan Pérez",     "fecha_nacimiento": "15/03/2005", "promedio_secundaria": "8,7"},
+    {"boleta": "A002", "nombre_alumno": "María López",    "fecha_nacimiento": "22-04-2006", "promedio_secundaria": "9.2"},
+    {"boleta": "A003", "nombre_alumno": "Carlos Ramírez", "fecha_nacimiento": "10/05/2005", "promedio_secundaria": "7,5 pts"},
+    {"boleta": "A001", "nombre_alumno": "Juan Pérez",     "fecha_nacimiento": "15/3/2005",  "promedio_secundaria": "8.7"},
+    {"boleta": "A004", "nombre_alumno": "Ana Gómez",      "fecha_nacimiento": "05/06/2006", "promedio_secundaria": "9,0"},
+    {"boleta": "A005", "nombre_alumno": "Luis Hernández", "fecha_nacimiento": "12/07/2005", "promedio_secundaria": "6.8"},
+    {"boleta": "A006", "nombre_alumno": "Sofía Martínez", "fecha_nacimiento": "18-08-2006", "promedio_secundaria": "8,3 pts"},
+    {"boleta": "A002", "nombre_alumno": "María López",    "fecha_nacimiento": "22/4/2006",  "promedio_secundaria": "9.2"},
+    {"boleta": "A007", "nombre_alumno": "Diego Torres",   "fecha_nacimiento": "03/09/2005", "promedio_secundaria": "7.9"},
+    {"boleta": "A008", "nombre_alumno": "Elena Vargas",   "fecha_nacimiento": "25/10/2006", "promedio_secundaria": "N/A"},
+    {"boleta": "A009", "nombre_alumno": "Miguel Castro",  "fecha_nacimiento": "14/11/2005", "promedio_secundaria": "8,4"},
+    {"boleta": "A010", "nombre_alumno": "Laura Ruiz",     "fecha_nacimiento": "30-12-2006", "promedio_secundaria": "9.1 pts"},
+    {"boleta": "A011", "nombre_alumno": "Pablo Silva",    "fecha_nacimiento": "02/01/2005", "promedio_secundaria": "7,2"},
+    {"boleta": "A012", "nombre_alumno": "Carmen Flores",  "fecha_nacimiento": "19/02/2006", "promedio_secundaria": "8,8"},
+    {"boleta": "A003", "nombre_alumno": "Carlos Ramírez", "fecha_nacimiento": "10/5/2005",  "promedio_secundaria": "7.5"}
+]
