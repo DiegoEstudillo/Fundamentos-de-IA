@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Gráficas con JavaScript</title>
+<meta charset='utf-8'>
+<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T' crossorigin='anonymous'>
+<link rel='stylesheet' type='text/css' href='morris.css'>  
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js'></script>
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js' integrity='sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM' crossorigin='anonymous'></script> 
+<script src='morris.min.js'></script>
+<script>    
+function grafica1(){
+  new Morris.Bar({
+  element: 'graph',
+  data: [{x:'Agfa ePhoto 1280', y:179, z:1},
+{x:'Agfa ePhoto 1680', y:179, z:2},
+{x:'Agfa ePhoto CL18', y:179, z:3},
+{x:'Agfa ePhoto CL30', y:269, z:4},
+{x:'Agfa ePhoto CL30 Clik!', y:1299, z:5},
+{x:'Agfa ePhoto CL45', y:179, z:6},
+{x:'Agfa ePhoto CL50', y:179, z:7},
+{x:'Canon PowerShot 350', y:149, z:8},
+{x:'Canon PowerShot 600', y:139, z:9},
+{x:'Canon PowerShot A10', y:139, z:10},
+{x:'Canon PowerShot A100', y:139, z:11},
+
+          ],
+  xkey: 'x',
+  ykeys: ['y'],
+  axes:false,
+  labels: ['Cantidad:'],
+  resize:true,
+  lineColors:['#2CB4AC']
+  });
+}
+</script>
+</head>
+<body>
+<div id='graph'></div>
+<input type='button' value='grafica' onclick='grafica1()'>
+</body>
+</html>
